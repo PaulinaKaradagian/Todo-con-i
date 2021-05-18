@@ -1,0 +1,65 @@
+body {
+  background: #9a04e5;
+  font-family: "Emilys Candy", cursive;
+  text-align: center;
+  transform: translateY(50%);
+}
+
+p {
+  color: #f5d4f8;
+  font-size: 50px;
+}
+
+input {
+  font-size: 50px;
+  background-color: #d6a7ee;
+  border: none;
+  text-align: center;
+  color: #6d6875;
+  font-family: "Roboto", sans-serif;
+  width: auto;
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+
+  padding: 60px 0;
+}
+
+footer ul {
+  display: flex;
+  margin-bottom: 25px;
+  font-size: 32px;
+  list-style: none;
+}
+
+footer ul li {
+  margin: 0 8px;
+}
+
+footer ul li:first-child {
+  margin-left: 0;
+}
+
+footer ul li:last-child {
+  margin-right: 0;
+}
+
+footer p {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+footer p a {
+  color: #fff;
+}
