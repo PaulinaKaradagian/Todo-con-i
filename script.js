@@ -12,10 +12,10 @@ var main = function () {
         words[i].charAt(0).toLowerCase() == "o" ||
         words[i].charAt(0).toLowerCase() == "u"
       ) {
-        palabras[i] = words[i].replace(/[aeiou]/gi, "i");
+        palabras[i] = words[i].replace(/[aeiouáéíóú]/gi, "i");
       } else if (words[i] != "") {
         var cons = words[i].charAt(0);
-        palabras[i] = words[i].replace(/[aeiou]/gi, "i");
+        palabras[i] = words[i].replace(/[aeiouáéíóú]/gi, "i");
       }
     }
     for (i = 0; i < words.length; i++) {
